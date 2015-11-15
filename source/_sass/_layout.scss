@@ -27,6 +27,58 @@
   border: none;
 }
 
+.btn {
+  appearance: none;
+  transition: background-color .2s linear, color .2s linear, border-color .2s linear;
+  border-radius: 4px;
+  box-shadow: none;
+  background-color: $primary-color;
+  border: 2px solid lighten($primary-color, 4%);
+  color: $white-color;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 700;
+  line-height: 2.6em;
+  padding: 0 1.6em;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+
+  &:hover,
+  &:active {
+    background-color: lighten($primary-color, 5%);
+    border-color: lighten($primary-color, 7%);
+    color: darken($white-color, 5%);
+  }
+}
+
+.pagination {
+  @extend %clearfix;
+  text-align: center;
+  margin: 2em 0;
+
+  li {
+    padding: 0 .4em;
+  }
+
+  li, a, span {
+    display: inline-block;
+  }
+
+  a, span {
+    line-height: 1.2em;
+    font-size: .7em;
+  }
+
+  a {
+  }
+
+  span {
+    color: #aaa;
+    font-style: italic;
+  }
+}
+
 /**
  * Site Header
  */
@@ -53,6 +105,7 @@
   }
 
   a {
+    font-size: 14px;
     text-decoration: none;
     color: $primary-color;
   }
@@ -60,6 +113,13 @@
   .divider {
     padding-left: .6em;
     padding-right: .6em;
+  }
+
+  .btn {
+    color: #fff;
+    font-weight: 400;
+    line-height: 2em;
+    padding: 0 1em;
   }
 }
 

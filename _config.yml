@@ -2,7 +2,7 @@ permalink   : /:categories/:year/:title/
 markdown    : kramdown
 highlighter : pygments
 
-paginate: 3 #6
+paginate: 2 #6
 comments: true
 paginate_path: "/page/:num"
 
@@ -15,4 +15,4 @@ email: your-email@domain.com
 description: ""
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com"
-repository: "http://github.com/nandomoreira.me/lora"
+repository: "https://github.com/nandomoreirame/lora"
