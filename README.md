@@ -29,4 +29,7 @@
 
 Lora is under [the MIT license](/LICENSE).
 
+> :warning:
+  Please remove metas `<meta name="robots" content="noindex">` and `<meta name="googlebot" content="noindex">` in `_layouts/default.html`
+
 Enjoy :yum:
