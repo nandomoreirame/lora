@@ -30,6 +30,6 @@ $ rake page name="about.md"
 
 ### Copyright and license
 
-Faisca is under [the MIT license](/LICENSE).
+Lora is under [the MIT license](/LICENSE).
 
 Enjoy :yum:
