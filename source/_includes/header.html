@@ -8,13 +8,13 @@
         <li class="divider">&bull;</li>
         <li><a href="{{ "/about" | prepend: site.baseurl }}">about</a></li>
         <li class="divider">&bull;</li>
-        <li><a href="{{ site.repository }}" target="_blank">github</a></li>
-        <li class="divider">&bull;</li>
         <li><a href="{{ "/feed.xml" | prepend: site.baseurl }}" target="_blank">feed</a></li>
       </ul>
     </nav>
 
-    <img src="/images/author.jpg" alt="Author thumbnail" class="dot author-thumb">
+    <a href="{{ "/" | prepend: site.baseurl }}" class="author-thumb">
+      <img src="/images/author.jpg" alt="Author thumbnail" class="dot">
+    </a>
     <h1>Hi, I'm Lora <small>and I'm free Jekyll theme :)</small></h1>
     <a class="btn" href="{{ site.repository }}/archive/master.zip" target="_blank">download</a>
     <hr class="hr">

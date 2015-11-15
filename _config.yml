@@ -10,9 +10,9 @@ source: source
 destination: _site
 
 # Site settings
-title: Lora Jekyll theme
+title: Lora
+description: "A free Jekyll theme"
 email: your-email@domain.com
-description: ""
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com"
 repository: "https://github.com/nandomoreirame/lora"
