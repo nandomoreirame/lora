@@ -12,6 +12,8 @@
 3. Install Ruby gems: `bundle install`
 4. Start Jekyll server: `jekyll serve`
 
+Access, [localhost:4000](http://localhost:4000/)
+
 ### Deploy in Github pages in 2 steps
 
 1. Change the variables `GITHUB_REPONAME` and `GITHUB_REPO_BRANCH` in `Rakefile`
