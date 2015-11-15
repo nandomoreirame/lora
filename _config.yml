@@ -1,0 +1,18 @@
+permalink   : /:categories/:year/:title/
+markdown    : kramdown
+highlighter : pygments
+
+paginate: 3 #6
+comments: true
+paginate_path: "/page/:num"
+
+source: source
+destination: _site
+
+# Site settings
+title: Lora Jekyll theme
+email: your-email@domain.com
+description: ""
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://yourdomain.com"
+repository: "http://github.com/nandomoreira.me/lora"

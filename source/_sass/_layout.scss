@@ -1,0 +1,96 @@
+/*=====================================
+=            Layout Styles            =
+=====================================*/
+
+/**
+ * Container
+ */
+
+.container {
+  max-width: $container-width;
+  padding: {
+    left: $gutter-padding;
+    right: $gutter-padding;
+  };
+  margin: {
+    left: auto;
+    right: auto;
+  };
+}
+
+.hr {
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: $primary-color;
+  margin: 3em auto;
+  border: none;
+}
+
+/**
+ * Site Header
+ */
+
+.site-header {
+  h1 {
+    margin-top: 1em;
+
+    small {
+      display: block;
+      color: #aaa;
+    }
+  }
+}
+
+.navbar {
+  margin: {
+    top: 1.4em;
+    bottom: 1.4em;
+  };
+
+  li {
+    display: inline-block;
+  }
+
+  a {
+    text-decoration: none;
+    color: $primary-color;
+  }
+
+  .divider {
+    padding-left: .6em;
+    padding-right: .6em;
+  }
+}
+
+/**
+ * .posts
+ */
+
+.post {
+  margin: 3em 0;
+
+  h1 {
+    margin-bottom: .3em;
+  }
+
+  .post-meta {
+    font-style: italic;
+    color: #aaa;
+  }
+
+  &:after {
+    content: '';
+    @extend .hr;
+  }
+}
+
+.posts {
+  .post {
+    h1 {
+      font-size: 1.4rem;
+    }
+  }
+  .read-more {
+  }
+}
