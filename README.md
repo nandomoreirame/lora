@@ -10,18 +10,15 @@
 3. Install Ruby gems: `bundle install`
 4. Start Jekyll server: `jekyll serve`
 
+### Deploy in Github pages in 2 steps
+
+1. Change the variables `GITHUB_REPONAME` and `GITHUB_REPO_BRANCH` in `Rakefile`
+2. Run `rake` or `rake publish` for build and publish on Github
+
 ### Using Rake tasks
 
-```
-$ rake post title="TITLE OF THE POST"
-$ rake page name="about.md"
-```
-
-### Deploy in Github pages
-
-1. Change the variable `GITHUB_REPONAME` url in `Rakefile`
-2. Change the variable `GITHUB_REPO_BRANCH` url in `Rakefile`
-3. Run `rake` or `rake publish` for build and publish on Github
+* Create a new page: `rake page name="contact.md"`
+* Create a new post: `rake post title="TITLE OF THE POST"`
 
 ### Demo and Download
 
