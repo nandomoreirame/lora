@@ -3,6 +3,8 @@
 > :warning:
   This theme requires ruby and rubygems installed
 
+---
+
 ### Start in 4 steps
 
 1. Download or clone repo `git clone git@github.com:nandomoreirame/lora.git`
@@ -15,15 +17,21 @@
 1. Change the variables `GITHUB_REPONAME` and `GITHUB_REPO_BRANCH` in `Rakefile`
 2. Run `rake` or `rake publish` for build and publish on Github
 
+---
+
 ### Using Rake tasks
 
 * Create a new page: `rake page name="contact.md"`
 * Create a new post: `rake post title="TITLE OF THE POST"`
 
+---
+
 ### Demo and Download
 
 [Demo](http://nandomoreira.me/lora/)
 [Download](https://github.com/nandomoreirame/lora/archive/master.zip)
+
+---
 
 ### Copyright and license
 
