@@ -1,0 +1,54 @@
+
+$icon-font-family: 'loralicons';
+$icon-path: '../fonts/';
+$icon-redo: "\e900";
+$icon-link: "\e901";
+$icon-star: "\e902";
+$icon-heart: "\e903";
+$icon-facebook: "\e904";
+$icon-facebook-rounded: "\e905";
+$icon-instagram: "\e906";
+$icon-twitter: "\e907";
+$icon-twitter-rounded: "\e908";
+$icon-feed: "\e909";
+$icon-feed-rounded: "\e90a";
+$icon-github: "\e90b";
+$icon-linkedin: "\e90c";
+
+@font-face {
+  font-family: $icon-font-family;
+  src: url('#{$icon-path}loralicons.eot?pfzr1n');
+  src: url('#{$icon-path}loralicons.eot?pfzr1n#iefix') format('embedded-opentype'),
+       url('#{$icon-path}loralicons.ttf?pfzr1n') format('truetype'),
+       url('#{$icon-path}loralicons.woff?pfzr1n') format('woff'),
+       url('#{$icon-path}loralicons.svg?pfzr1n#loralicons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.icon {
+  font-family: $icon-font-family;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-redo:before { content: $icon-redo; }
+.icon-link:before { content: $icon-link; }
+.icon-star:before { content: $icon-star; }
+.icon-heart:before { content: $icon-heart; }
+.icon-facebook:before { content: $icon-facebook; }
+.icon-facebook-rounded:before { content: $icon-facebook-rounded; }
+.icon-instagram:before { content: $icon-instagram; }
+.icon-twitter:before { content: $icon-twitter; }
+.icon-twitter-rounded:before { content: $icon-twitter-rounded; }
+.icon-feed:before { content: $icon-feed; }
+.icon-feed-rounded:before { content: $icon-feed-rounded; }
+.icon-github:before { content: $icon-github; }
+.icon-linkedin:before { content: $icon-linkedin; }
+

@@ -8,13 +8,35 @@ paginate_path: "/page/:num"
 
 source: source
 destination: _site
+sass:
+  sass_dir: _scss
+  style: compressed
 
 # Site settings
 title: Lora
 description: "A free Jekyll theme"
 email: your-email@domain.com
-baseurl: "/lora" # the subpath of your site, e.g. /blog/
+baseurl: "" # the subpath of your site, e.g. /blog/
 #url: "http://yourdomain.com"
 url: "http://nandomoreira.me/lora"
 repository: "https://github.com/nandomoreirame/lora"
+disqus_shortname: "fernandomoreira"
 google_analytics: UA-52446115-1
+
+# social footer
+social:
+  github:
+    slug: github
+    link: http://github.com/nandomoreirame
+  facebook:
+    slug: facebook
+    link: http://facebook.com/fernando.dev
+  twitter:
+    slug: twitter
+    link: http://twitter.com/nandomoreirame
+  instagram:
+    slug: instagram
+    link: http://instagram.com/nandomoreira.me
+  linkedin:
+    slug: linkedin
+    link: http://linkedin.com/in/nandomoreirame

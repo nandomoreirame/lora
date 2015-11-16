@@ -190,6 +190,35 @@
   }
 }
 
+.share {
+  padding: 1.2em 0 0;
+  width: 100%;
+  text-align: right;
+
+  span, a {
+    display: inline-block;
+    color: #787878;
+    text-decoration: none;
+    padding-left: 5px;
+  }
+}
+
+.social {
+  text-align: center;
+  margin: 2em 0;
+
+  li {
+    display: inline-block;
+    padding: 0 .6em;
+  }
+
+  a {
+    color: #999;
+    text-decoration: none;
+    font-size: 1.2em;
+  }
+}
+
 .github-corner {
   &:hover .octo-arm {
     animation: octocat-wave 560ms ease-in-out;
