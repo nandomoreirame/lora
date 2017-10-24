@@ -30,7 +30,7 @@ Access, [localhost:4000](http://localhost:4000/)
 
 ### Demo and Download
 
-[Demo](https://nandomoreira.me/lora/)
+[Demo](https://nandomoreirame.github.io/lora/)
 [Download](https://github.com/nandomoreirame/lora/archive/master.zip)
 
 ![Lora - free Jekyll theme](/screenshot.png)
