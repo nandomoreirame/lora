@@ -3,7 +3,7 @@
 > :warning:
   This theme requires ruby and rubygems installed
 
-
+# https://medium.com/@coryminglee/hosting-your-github-page-in-godaddy-domain-in-2018-b872b39190f9
 
 ---
 
