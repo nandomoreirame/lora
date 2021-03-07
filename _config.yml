@@ -19,7 +19,7 @@ email: your-email@domain.com
 baseurl: "" # the subpath of your site, e.g. /blog/
 #url: "http://yourdomain.com"
 url: "http://sorikiki.github.io"
-repository: "https://github.com/nandomoreirame/lora"
+repository: "https://github.com/sorikiki/sorikiki.github.io.git"
 disqus_shortname: "fernandomoreira"
 google_analytics: UA-52446115-1
 
