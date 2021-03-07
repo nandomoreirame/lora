@@ -18,7 +18,7 @@ description: "A free Jekyll theme"
 email: your-email@domain.com
 baseurl: "" # the subpath of your site, e.g. /blog/
 #url: "http://yourdomain.com"
-url: "http://nandomoreira.me/lora"
+url: "http://sorikiki.github.io"
 repository: "https://github.com/nandomoreirame/lora"
 disqus_shortname: "fernandomoreira"
 google_analytics: UA-52446115-1
